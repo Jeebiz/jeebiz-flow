@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.458" height="120" viewBox="0 0 113.458 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #2ebbe8;
+      }
+
+      .cls-3 {
+        opacity: 0;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="路径_680" data-name="路径 680" class="cls-1" d="M0,0H113.458V120Z" transform="translate(0)"/>
+    </clipPath>
+  </defs>
+  <g id="蒙版组_7" data-name="蒙版组 7" class="cls-2">
+    <g id="_-" data-name="-" transform="translate(-17.964)">
+      <g id="二维码" transform="translate(0)">
+        <g id="Group">
+          <g id="组_1311" data-name="组 1311">
+            <rect id="Rectangle" class="cls-3" width="131.422" height="139"/>
+            <path id="Path" class="cls-4" d="M32.588,32.727H40.2v8.047H32.588Z" transform="translate(-1.777)"/>
+            <path id="Shape" class="cls-4" d="M53.088,18.255H18.1v37H31.8V61.7h7.608V55.26H53.1V47.214h6.089v-6.44H53.1l-.015-22.518ZM45.5,47.214H25.709V26.3H45.481V47.214ZM31.8,98.705h7.608v8.047H31.8ZM94.165,32.727h7.608v8.047H94.165ZM66.786,69.1v8.68h7.608V69.747h6.089V61.7H74.393V55.26H66.786Zm0,29.422v8.232h7.608V92.265h6.089V84.219h-13.7v14.3Zm7.608,8.232h6.089v6.44H74.393Zm-15.216,6.44v8.031H74.394v-8.031Z" transform="translate(-0.987)"/>
+            <path id="Shape-2" data-name="Shape" class="cls-4" d="M89.319,92.265H81.711v14.487H95.394V98.705H89.319v-6.44Zm6.075,28.958H116.7v-8.031H103v-6.44H95.394v14.471ZM116.7,69.747V61.7H103v8.047Zm-7.608,28.958H116.7v8.047h-7.608ZM60.406,47.214h7.608V55.26H60.406ZM95.394,61.7V55.26H116.7v-37H81.711V26.3h-13.7v6.44h13.7v8.031H75.622v6.44h6.089V55.26h7.608V61.7ZM89.319,26.3h19.772V47.214H89.319Zm0,51.476h6.075v6.44H89.319ZM103,92.265H95.394v6.44h13.7V84.219H116.7v-6.44H103Zm-42.6-59.538h7.608v8.047H60.406ZM40.634,69.747h6.089v8.031H40.634ZM60.406,61.7H46.724v8.047h7.593v8.031h6.089V61.7Z" transform="translate(-2.215)"/>
+            <path id="Shape-3" data-name="Shape" class="cls-4" d="M53.088,106.752V92.265h6.089V84.219H31.8V69.747H18.1v8.047h7.608v6.44H18.1v37H53.088v-8.047h6.089v-6.44Zm-7.593,6.44H25.709V92.265H45.481v20.927ZM59.178,77.778h7.608v6.44H59.178Zm21.3-8.031H88.09v8.031H80.483Zm13.683,0h7.608v8.031H94.165Z" transform="translate(-0.987)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

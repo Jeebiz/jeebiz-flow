@@ -1,0 +1,145 @@
+.el-button--primary,.el-button--default{
+  border-radius:16px;
+  height: 32px;
+  padding: 7px 16px;
+  font-size: 14px;
+}
+.el-button--default:not .el-button--primary{
+  color:#2EBBE8;
+  border-color:#2EBBE8;
+}
+/*自定义表格*/
+.el-table tr{
+  line-height: 40px;
+  box-sizing: border-box;
+}
+.el-table th{
+  background: rgba(0,0,0,0.05);
+  text-align: center;
+}
+.el-table th, .el-table td{
+  text-align: center;
+  padding: 0;
+}
+.el-table td{
+  padding: 4px 0;
+}
+.el-table th > .cell{
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+/*自定义switch*/
+ .el-switch__label {
+  position: absolute;
+  display: none;
+   color: #fff !important;
+  font-size:12px !important;
+}
+/*打开时文字位置设置*/
+ .el-switch__label--right {
+  z-index: 1;
+  right: 20px;
+  margin-left: 0;
+  top: 1px;
+}
+/*关闭时文字位置设置*/
+ .el-switch__label--left {
+  z-index: 1;
+  left: 20px;
+  margin-right: 0;
+  top: 1px;
+}
+/*显示文字*/
+.el-switch__label.is-active {
+  display: block;
+}
+.el-input__inner{
+    border-radius: 16px;
+}
+.el-input-number .el-input__inner{
+    border-radius: 4px;
+}
+.el-textarea__inner{
+  border-radius: 16px;
+}
+/*.el-switch .el-switch__core,*/
+/*.el-switch .el-switch__label {*/
+  /*width: 56px !important;*/
+/*}*/
+.aritcleTab .el-tabs__content{
+  height: 600px;
+  overflow: auto;
+}
+.articleDialog .el-dialog__body{
+  padding: 0 10px;
+}
+.workFlowimgDiag .el-dialog__body{
+  width:100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+/*自定义tab选项卡*/
+.myTab .el-tabs__content{
+  height: calc(100% - 60px);
+  height: -webkit-calc(100% - 60px);
+  height: -moz-calc(100% - 60px);
+  overflow: auto;
+}
+.myTab .el-tab-pane,.myTab .el-tab-pane .content{
+  height: 100%;
+}
+/*调整树形图 hover focus 背景色和字体色*/
+.filter-tree .el-tree-node:focus > .el-tree-node__content {
+  background-color: #2EBBE8;
+  color: #fff;
+}
+
+.filter-tree .el-tree-node > .el-tree-node__content:hover{
+  background-color: #2EBBE8;
+  color: #fff;
+}
+
+/*弹出底部按钮位置*/
+.el-dialog__footer .dialog-footer{
+    text-align: center;
+}
+
+.el-tabs__item {
+    opacity: 1 !important;
+    color: #333333 !important;
+}
+.el-tabs__item:hover {
+    color: #409eff !important;
+}
+.el-dialog__footer {
+    text-align: center;
+}
+.centerBox .rightBox .innerBox .topSelectBox .el-input__inner{
+  background: transparent !important;
+  color: #69FBFB !important;
+  border: none;
+  font-size:16px;
+}
+.titleBox .el-rate .el-rate__icon{
+  font-size:30px
+}
+.myPagerforce.el-pagination.is-background .el-pager li,
+.myPagerforce.el-pagination.is-background .btn-prev,
+.myPagerforce.el-pagination.is-background .btn-next{
+  border-radius: 3px ;;
+  border: 1px solid rgba(160,255,237,1);;
+  background: transparent;
+  color: #A0FFED ;
+}
+.myPagerforce.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background:rgba(160,255,237,0.29);
+}
+/*!*树 高度固定*!*/
+/*.tree{*/
+/*    height: 650px !important;*/
+/*}*/
+.certificateUpload .el-dialog{
+  margin-top:10px !important;
+}
+

@@ -1,0 +1,192 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>io.hiwepy</groupId>
+		<artifactId>jeebiz-flow-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>jeebiz-flow-form</artifactId>
+
+	<dependencies>
+		
+		<!-- For Jeebiz -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jeebiz-cloud-extras-core</artifactId>
+			<version>${jeebiz-cloud.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jeebiz-cloud-extras-filestore</artifactId>
+			<version>${jeebiz-cloud.version}</version>
+		</dependency>
+  		<dependency>
+		    <groupId>com.google.code.findbugs</groupId>
+		    <artifactId>annotations</artifactId>
+		    <version>3.0.1</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
+		
+		<!-- For Thymeleaf View -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- Thymeleaf Layout Dialect -->
+		<dependency>
+		    <groupId>nz.net.ultraq.thymeleaf</groupId>
+		    <artifactId>thymeleaf-layout-dialect</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.theborakompanioni/thymeleaf-extras-shiro -->
+		<dependency>
+		    <groupId>com.github.theborakompanioni</groupId>
+		    <artifactId>thymeleaf-extras-shiro</artifactId>
+		</dependency>
+		
+		<!-- For Flowable -->
+        <dependency>
+		    <groupId>org.flowable</groupId>
+		    <artifactId>flowable-spring-boot-starter-process</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.flowable</groupId>
+		    <artifactId>flowable-spring-boot-starter-cmmn</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.flowable</groupId>
+		    <artifactId>flowable-content-spring-configurator</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.flowable</groupId>
+		    <artifactId>flowable-form-spring-configurator</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<!-- For Formio -->
+		<dependency>
+			<groupId>net.formio</groupId>
+			<artifactId>formio</artifactId>
+		</dependency>
+		<dependency>
+		  	<groupId>org.hibernate</groupId>
+		  	<artifactId>hibernate-validator</artifactId>
+		  	<version>6.1.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.hiwepy</groupId>
+			<artifactId>validation-mimetypes-spring-boot-starter</artifactId>
+		</dependency>
+		<!-- For Flyway -->
+		<dependency>
+			<groupId>com.github.hiwepy</groupId>
+			<artifactId>flyway-plus-spring-boot-starter</artifactId>
+		</dependency>
+		<!-- For Druid -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.hiwepy</groupId>
+			<artifactId>druid-plus-spring-boot-starter</artifactId>
+		</dependency>
+		<!-- For HikariCP -->
+		<dependency>
+			<groupId>com.github.hiwepy</groupId>
+			<artifactId>hikaricp-plus-spring-boot-starter</artifactId>
+		</dependency>
+  		<!-- JDBC Driver For MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- JDBC Driver For Oracle -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+		</dependency>
+
+		<!-- For Spring Cloud Nacos Config Client -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+		<!-- For Spring Cloud Nacos Config Enhancement With Nepxion Discovery -->
+		<dependency>
+			<groupId>com.nepxion</groupId>
+			<artifactId>discovery-plugin-config-center-starter-nacos</artifactId>
+		</dependency>
+		<!-- For Spring Cloud Nacos Discovery Client -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+		<!-- For Spring Cloud Nacos Discovery Enhancement With Nepxion Discovery -->
+		<dependency>
+			<groupId>com.nepxion</groupId>
+			<artifactId>discovery-plugin-starter-nacos</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>com.nepxion</groupId>
+            <artifactId>discovery-plugin-strategy-starter-service</artifactId>
+        </dependency>
+
+		<!-- For Embed Tomcat -->
+        <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency> -->
+        <!-- For Embed Jetty -->
+        <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency> -->
+        <!-- For Embed Undertow -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+        
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+					<mainClass>net.jeebiz.admin.layui.AdminLayuiApplication</mainClass>
+				</configuration>
+			</plugin>
+			<!-- 第一步：生成可执行的启动脚本 -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+			</plugin>
+			<!-- 第一步：通过antrun插件拷贝文件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+			</plugin>
+			<!-- 第三步：生成离线文档 -->
+			<!-- http://blog.didispace.com/swagger2markup-asciidoc/ -->
+			<!-- First, use the swagger2markup plugin to generate asciidoc -->
+			<!-- <plugin> <groupId>io.github.swagger2markup</groupId> <artifactId>swagger2markup-maven-plugin</artifactId> 
+				</plugin> -->
+			<!-- Run the generated asciidoc through Asciidoctor to generate other 
+				documentation types, such as PDFs or HTML5 -->
+			<!-- <plugin> <groupId>org.asciidoctor</groupId> <artifactId>asciidoctor-maven-plugin</artifactId> 
+				</plugin> -->
+		</plugins>
+	</build>
+</project>

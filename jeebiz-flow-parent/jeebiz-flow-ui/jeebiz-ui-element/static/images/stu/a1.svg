@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342" height="88" viewBox="0 0 342 88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        opacity: 0.466;
+      }
+
+      .cls-5, .cls-7, .cls-8, .cls-9 {
+        opacity: 0.448;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-11, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        opacity: 0.142;
+      }
+
+      .cls-10, .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-10 {
+        opacity: 0.205;
+      }
+
+      .cls-11 {
+        opacity: 0.208;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="0.188" y2="1.674" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6fd3ff"/>
+      <stop offset="1" stop-color="#17b3c7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="0.188" y2="1.674" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ab77ff"/>
+      <stop offset="1" stop-color="#df77f2"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="矩形_4470" data-name="矩形 4470" class="cls-1" width="342" height="88" transform="translate(336 125)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="-0.201" x2="0.5" y2="1.191" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0" y2="1" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" y1="1" y2="0" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" y1="-0.482" y2="1" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="组_1303" data-name="组 1303" transform="translate(-336 -125)">
+    <rect id="矩形_4420" data-name="矩形 4420" class="cls-2" width="342" height="88" transform="translate(336 125)"/>
+    <g id="蒙版组_6" data-name="蒙版组 6" class="cls-3">
+      <g id="组_412" data-name="组 412" class="cls-4" transform="translate(91 -69.681)">
+        <path id="联合_3" data-name="联合 3" class="cls-5" d="M0,117.754V24.739H0a25.234,25.234,0,0,1,50.458,0h0v93.015Z" transform="translate(266.289 208.686)"/>
+        <path id="路径_449" data-name="路径 449" class="cls-6" d="M37.259,0c.169,28.636.261,46.561,0,74.518A37.259,37.259,0,0,1,37.259,0Z" transform="translate(503.724 283.205)"/>
+        <path id="路径_454" data-name="路径 454" class="cls-6" d="M80.221,0c.365,61.656.563,100.249,0,160.442A80.221,80.221,0,0,1,80.221,0Z" transform="translate(315.706 226.176)"/>
+        <rect id="矩形_420" data-name="矩形 420" class="cls-6" width="152.078" height="31.176" transform="translate(245 195)"/>
+        <rect id="矩形_427" data-name="矩形 427" class="cls-6" width="82.883" height="31.176" transform="translate(313.443 295.372)"/>
+        <rect id="矩形_423" data-name="矩形 423" class="cls-6" width="15.208" height="86.031" transform="translate(245 261.807)"/>
+        <rect id="矩形_424" data-name="矩形 424" class="cls-6" width="47.905" height="60.178" transform="translate(266.291 326.44)"/>
+        <rect id="矩形_421" data-name="矩形 421" class="cls-7" width="56.269" height="100.372" transform="translate(395.576 195)"/>
+        <rect id="矩形_422" data-name="矩形 422" class="cls-8" width="53.227" height="100.372" transform="translate(450.879 195)"/>
+        <rect id="矩形_425" data-name="矩形 425" class="cls-9" width="108.736" height="91.247" transform="translate(395.563 295.372)"/>
+        <rect id="矩形_426" data-name="矩形 426" class="cls-10" width="94.288" height="28.895" transform="translate(492.643 357.724)"/>
+        <path id="路径_453" data-name="路径 453" class="cls-11" d="M0,0,87.267,83.465H0Z" transform="translate(503.535 282.266) rotate(-90)"/>
+        <path id="路径_450" data-name="路径 450" class="cls-7" d="M.167,0C-.006,28.636-.1,46.561.167,74.518c21.011,0,38.044-16.681,38.044-37.259S21.178,0,.167,0Z" transform="translate(541.147 283.205)"/>
+      </g>
+    </g>
+  </g>
+</svg>

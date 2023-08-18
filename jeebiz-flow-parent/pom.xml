@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>io.hiwepy</groupId>
+		<artifactId>jeebiz-flow-dependencies</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../jeebiz-flow-dependencies</relativePath>
+	</parent>
+	
+	<artifactId>jeebiz-flow-parent</artifactId>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>jeebiz-flow-admin</module>
+		<module>jeebiz-flow-app</module>
+		<module>jeebiz-flow-form</module>
+		<module>jeebiz-flow-modeler</module>
+		<module>jeebiz-flow-idm</module>
+		<module>jeebiz-flow-task</module>
+		<module>jeebiz-flow-rest</module>
+		<module>jeebiz-flow-sdk</module>
+		<module>jeebiz-flow-ui</module>
+		<module>jeebiz-flow-event</module>
+	</modules>
+	
+</project>
